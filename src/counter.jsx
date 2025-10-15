@@ -3,7 +3,6 @@ import { useState } from "react"
 export default function Counter() {
   const [count, setCount] = useState(0)
   const addOne = () => {
-    console.log(count)
     setCount(c => c + 1)
   }
   const addThree = () => {
